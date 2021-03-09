@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        * {
+         box-sizing: border-box;   
+        }
+        
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 2;
+        }
+
+        .vid{
+            width: 100%    !important;
+            height: auto   !important;
+            object-fit: fill; 
+}
+        
+      
+        .nav{
+        
+        display: flex;
+        padding: 15px;
+       
+        }
+
+        .nav a{
+            color: black;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+       
+        }
+        .nav a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .cover{
+           display: flex;
+            position: relative;
+       
+        }
+
+        .in{
+            position:absolute;
+            left: 5%;
+            bottom: 15%;
+            text-align: justify;
+            font-size: 60px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+   
+        }
+
+        .in2{
+            font-size: 12px;
+        }
+
+        .head{
+            font-size: 30px;
+            height: 5%;
+            text-align: center;
+        }
+        .three{
+            display: flex ;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+        .one{
+            display: flex ;
+            flex-direction: column;
+
+        }
+
+        .two{
+            display: flex ;
+            flex-direction: column;
+        }
+
+            .tree{
+            display: flex ;
+            flex-direction: column;
+            }
+
+        .Another{
+            padding: 20px;
+            text-align: center;
+            background: #ff6f61;
+            line-height: 0.3;
+            color: white;
+            margin-top: 2%;
+            height: 15 px;
+    
+        }
+        .title{
+            font-size: 40px;
+        }
+        .par{
+            font-size: 12px;
+        }
+
+        .Button {background-color: #ff6f61;
+            border: none;
+            color : white;
+outline:none;}
+
+        .Button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .footer{
+            background: white;
+            text-align: center;
+            font-size: 16px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class = "video" style: width =100%>
+    <video nocontrols autoplay loop class="vid">
+        <source src="home_page_video.mp4"type="video/mp4">
+      </video>
+    </div>
+
+
+
+        
+        <div class= "nav">
+         <img src="logo.png"  width="50" height="50">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+
+        </div>  
+
+
+    </div>
+        <div class="cover">
+            <img src="cover.jpg" style: width =100%>
+
+            <div class = "in" >
+
+                <h2>We Promise To</h2>
+                <h2>Make You Laugh</h2>
+                <h2>Cry & Smile</h2>
+            <div class =" in2" >
+                <h2>We know that your weddig day is special that you will remember the rest of your life.</h2>
+                <h2>We also know that it can be very busy and hectic, which is why we  focus on keeping things simple & special.</h2>
+            </div>
+
+
+            </div>
+        </div>
+
+
+        <div class= "head">
+            <h3> Blog Post</h3>
+
+
+
+        </div>
+
+
+        <div>
+            <div class = "three">
+        
+            
+            <div class= one>
+            <img src="post-1.jpg" style: width = 90%  height=100%>
+            <h2> Post 1</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis animi ipsa ipsum aspernatur voluptates commodi est aliquam laudantium et pariatur molestiae incidunt unde, doloribus voluptatibus dolore rerum tempore eaque.</p>      
+            <a href="#">Read more</a>
+            </div>
+                
+             <div class= two>
+            <img src="post-2.jpg" style: width = 90%  height=100%> 
+             <h2> Post 2</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis animi ipsa ipsum aspernatur voluptates commodi est aliquam laudantium et pariatur molestiae incidunt unde, doloribus voluptatibus dolore rerum tempore eaque.</p>  
+                <a href="#">Read more</a>
+        
+             </div>
+
+             <div class = tree>
+                <img src="post-3.jpg" style: width = 90%  height=100%>
+                <h2> Post 2</h1>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis animi ipsa ipsum aspernatur voluptates commodi est aliquam laudantium et pariatur molestiae incidunt unde, doloribus voluptatibus dolore rerum tempore eaque.</p>  
+                    <a href="#">Read more</a>
+            </div>
+            
+           
+            
+        </div>
+
+
+        <div class="Another">
+            <div class ="title">
+            <h2>Let us be part of your memories</h2>
+        </div>
+        <div class ="par">
+            <p>We know that your wedding day is special day that you will remeber for the rest of your life.</p>
+            <button class="Button">Book now!</button>
+        </div>
+        </div>
+        <div class="footer">
+            <h2>© All rights reserved</h2>
+        </div>
+
+
+
+</body>
+
+</html>
+
+
